@@ -1,16 +1,22 @@
-## Hi there 👋
+# Hi, I'm Dweep Saha
 
-<!--
-**DweepSaha/DweepSaha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+2nd-year Geomatics Engineering student at the University of New Brunswick.
 
-Here are some ideas to get you started:
+## Featured Project — GNSS Positioning Quality Analyzer
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+A web application that analyzes GPS positioning quality from raw RINEX files.
+
+**Live app:** https://gnss-saha.streamlit.app
+
+**What it does:**
+- Computes Single Point Positioning (SPP) accuracy — CEP50, RMSE, HDOP
+- Detects signal multipath using Code-Minus-Carrier (CMC) analysis
+- Assesses signal quality using SNR deviation analysis
+- Handles RINEX 2 and RINEX 3 from Trimble, Septentrio, JAVAD receivers
+- Generates downloadable PDF reports
+- Validated on benchmark datasets from 6 receivers across Canada and California
+
+**Built with:** Python, Streamlit, georinex, NumPy, SciPy, Matplotlib
+
+## Education
+BSc Geomatics Engineering — University of New Brunswick (2025–present)
